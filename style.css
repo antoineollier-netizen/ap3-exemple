@@ -1,0 +1,17 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  padding: 20px;
+  color: #333;
+}
+
+h1, h2 { color: #333; }
+
+.menu { list-style: none; padding: 0; margin: 0 0 20px 0; }
+.menu li { display: inline; margin-right: 15px; }
+.menu a { color: #0645ad; text-decoration: none; }
+.menu a:hover { text-decoration: underline; }
+
+img.photo { width: 220px; border: 1px solid #ccc; margin-right: 10px; }
+hr { border: 0; border-top: 1px solid #ddd; margin: 20px 0; }
