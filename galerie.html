@@ -5,20 +5,24 @@
   <meta charset="UTF-8">
   <title>Galerie</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
-  <h1>Galerie de jeux</h1>
+  <h1>Galerie</h1>
 
-  <ul class="menu">
-    <li><a href="index.html">Accueil</a></li>
-    <li><a href="jeux.html">Jeux</a></li>
-    <li><a href="galerie.html">Galerie</a></li>
-    <li><a href="apropos.html">À propos</a></li>
-  </ul>
+<button class="simple" onclick="toggleDarkMode()">Mode sombre</button>
+<ul class="menu">
+  <li><a href="index.html">Accueil</a></li>
+  <li><a href="jeux.html">Jeux</a></li>
+  <li><a href="galerie.html">Galerie</a></li>
+  <li><a href="apropos.html">À propos</a></li>
+</ul>
 
-  <img class="photo" src="images/jeu1.jpg" alt="Image de plateau - jeu 1">
-  <img class="photo" src="images/jeu2.jpg" alt="Image de cartes - jeu 2">
-  <img class="photo" src="images/catan.jpg" alt="Image placeholder pour Catan">
 
+  <a href="Arcanium.html"><img class="photo" src="images/arcanum.jpg" alt="Arcanum - image locale"></a>
+  <a href="colonia.html"><img class="photo" src="images/colonia.jpg" alt="Colonia - image locale"></a>
+  <a href="catan.html"><img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/A_game_of_Settlers_of_Catan.jpg/800px-A_game_of_Settlers_of_Catan.jpg" alt="Catan - image externe"></a>
+
+  <p>Cliquer sur une image ouvre la fiche du jeu.</p>
 </body>
 </html>
